@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 18 02:10:36 2018
-
-@author: HP
-"""
 
 from tkinter import*
 

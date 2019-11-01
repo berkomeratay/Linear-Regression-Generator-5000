@@ -7,10 +7,6 @@ import pandas as pd
 import statsmodels.api as sm
 from patsy import dmatrices
 quitter = 0
-var_list = list()
-
-
-
 
 def close_window(): 
     root.destroy()
@@ -90,13 +86,7 @@ def reg_generator():
     list_box_1.pack()
     for i in model_data.columns:
         list_box_1.insert(END,i)
-        """
-        label2 = Label(root,text = "{}. {}".format(b,i))
-        label2.pack()
-        b += 1
-    label3 = Label(root,text="\n*************************************")
-    label3.pack()
-    """    
+    
     def retrieve_input_1():
         global inputValue1
         inputValue1 = str(depp.get("1.0","end-1c"))

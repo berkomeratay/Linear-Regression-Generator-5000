@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec 18 02:10:36 2018
-
-@author: HP
+@author: berkomeratay
 """
 
 from tkinter import*
@@ -93,13 +91,7 @@ def reg_generator():
     list_box_1.pack()
     for i in model_data.columns:
         list_box_1.insert(END,i)
-        """
-        label2 = Label(root,text = "{}. {}".format(b,i))
-        label2.pack()
-        b += 1
-    label3 = Label(root,text="\n*************************************")
-    label3.pack()
-    """    
+    
     def retrieve_input_1():
         global inputValue1
         inputValue1 = str(depp.get("1.0","end-1c"))

@@ -20,7 +20,7 @@ def close_window():
     
 
 root_temp = Tk()
-label_n = Label(root_temp,text = r"Please Enter the Directory of the Dataset (example: C:\Users\HP\Desktop\schooling_earnings.csv): )
+label_n = Label(root_temp,text = r"Please Enter the Directory of the Dataset (example: C:\Users\HP\Desktop\schooling_earnings.csv):")
 label_n.pack()
 root_temp.title("Linear Regression Generator 5000")
 root_temp.geometry('600x300') 
